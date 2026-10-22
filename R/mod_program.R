@@ -801,6 +801,12 @@ mod_program_server <- function(id){
                      `Priorización y justificación` = .$comments
             ))
 
+        ## Add the `Tamaño muestral ajustado` in case it is missing
+
+        if (! "Tamaño muestral ajustado" %in% names(out)) {
+          out <- mutate(out, `Tamaño muestral ajustado` = NA)
+        }
+
 
         write_xlsx(out, file)
       }

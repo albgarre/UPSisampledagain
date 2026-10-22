@@ -13,6 +13,7 @@ Imports:
     ggplot2,
     golem,
     janitor,
+    pkgload,
     purrr,
     readxl,
     rhandsontable,

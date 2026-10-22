@@ -1,0 +1,12 @@
+name: UPSisampledagain
+title: UPSisampledagain
+username: foodlab-upct
+account: foodlab-upct
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 18254567
+bundleId: 12727283
+url: https://foodlab-upct.shinyapps.io/UPSisampledagain/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
